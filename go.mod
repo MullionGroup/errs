@@ -1,10 +1,10 @@
-module github.com/airbusgeo/errs
+module github.com/MullionGroup/errs
 
-go 1.16
+go 1.18
 
 require (
-	cloud.google.com/go v0.88.0
+	cloud.google.com/go/compute v1.7.0
 	github.com/pkg/errors v0.9.1
-	golang.org/x/net v0.0.0-20210503060351-7fd8e65b6420
-	google.golang.org/api v0.52.0
+	golang.org/x/net v0.0.0-20220926192436-02166a98028e
+	google.golang.org/api v0.97.0
 )
